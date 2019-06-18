@@ -20,14 +20,13 @@ function App() {
             <Normalize />
             <GlobalStyles />
             <ThemeProvider theme={isLight ? theme_light : theme_dark}>
-                <Router>
+                <Router themeChange={themeChange}>
                     <Home />
                     <About />
                     <Contact />
                     <Projects />
                 </Router>
             </ThemeProvider>
-            <button onClick={themeChange}>Change Theme</button>
         </>
     )
 }

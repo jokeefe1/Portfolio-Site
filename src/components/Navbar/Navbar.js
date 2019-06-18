@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from '../../Logo/Logo'
 import { Center } from '../../styles/global'
+import Logo from '../Logo/Logo'
 import { Link, Nav } from './Navbar.styled'
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <Nav>
             <Center>
@@ -11,6 +11,9 @@ export default function Navbar() {
                     <Link to="/">
                         <Logo />
                     </Link>
+                </div>
+                <div>
+                    <button onClick={props.themeChange}>Change Theme</button>
                 </div>
                 <div>
                     <ul>

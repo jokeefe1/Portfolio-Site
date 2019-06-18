@@ -6,10 +6,10 @@ import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
 import Navbar from '../components/Navbar/Navbar';
 
-export default function Router() {
+export default function Router(props) {
     return (
         <BrowserRouter>
-            <Navbar />
+            <Navbar themeChange={props.themeChange} />
             <Switch>
                 <Route component={Home} path='/' exact />
                 <Route component={Projects} path='/projects' />
