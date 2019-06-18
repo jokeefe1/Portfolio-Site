@@ -14,6 +14,6 @@ export const Link = styled(NavLink)`
     text-decoration: none;
     color: ${({ theme }) => theme.light1};
     &.active {
-        color: ${({ theme }) => theme.accent2};
+        color: ${({ theme }) => theme.accent1};
     }
 `

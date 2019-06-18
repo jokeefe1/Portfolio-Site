@@ -1,9 +1,17 @@
+// Site Themes
 
-// Site Colors
-export default {
-    primary1: 'rgba(58, 68, 84, 1)',
-    primary2: 'rgba(40, 83, 107, 1)',
-    accent1: 'rgba(204, 219, 220, 1)',
-    accent2: 'rgba(155, 222, 172, 1)',
-    light1: 'rgba(238, 229, 229, 1)'
+export const theme_light = {
+    primary1: '#3A4454',
+    primary2: '#28536B',
+    accent1: '#9BDEAC',
+    accent2: '#CCDBDC',
+    light1: '#EEE5E5'
+}
+
+export const theme_dark = {
+    primary1: '#111111',
+    primary2: '#1F1F1F',
+    accent1: '#5708C8',
+    accent2: '#6200EE',
+    light1: '#666666'
 }
