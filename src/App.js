@@ -6,7 +6,7 @@ import Contact from './Pages/Contact/Contact'
 import Home from './Pages/Home'
 import Projects from './Pages/Projects/Projects'
 import Router from './router/Router'
-import theme from './styles/colors'
+import theme from './styles/theme'
 import { GlobalStyles } from './styles/global'
 
 function App() {
