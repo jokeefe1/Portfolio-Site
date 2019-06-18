@@ -1,7 +1,7 @@
 import React from 'react'
 import { Center } from '../../styles/global'
 import { Link, Nav, Img } from './Navbar.styled'
-import logo from '../../Images/logo.png'
+import logo from '../../images/logo.png'
 
 export default function Navbar() {
     return (
