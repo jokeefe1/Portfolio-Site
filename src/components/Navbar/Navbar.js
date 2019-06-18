@@ -1,13 +1,16 @@
 import React from 'react'
 import { Center } from '../../styles/global'
-import { Link, Nav } from './Navbar.styled'
+import { Link, Nav, Img } from './Navbar.styled'
+import logo from '../../Images/logo.png'
 
 export default function Navbar() {
     return (
         <Nav>
         <Center>
             <div>
-                <Link to='/'>Logo</Link>
+                <Link to='/'>
+                    <Img src={logo} alt='logo' />
+                </Link>
             </div>
             <div>
                 <ul>
