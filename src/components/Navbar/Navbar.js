@@ -1,17 +1,23 @@
 import React from 'react';
-import { Center } from '../../styles/global';
+import { Center, Flex } from '../../styles/global';
 import Logo from '../Logo/Logo';
-import { Link, Nav } from './Navbar.styled';
+import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
+import { Link, Nav, Sun, Moon } from './Navbar.styled';
 
 export default function Navbar(props) {
     return (
         <Nav>
             <Center>
-                <div>
+                <Flex>
                     <Link to="/">
                         <Logo />
                     </Link>
-                </div>
+                    <div>
+                        <Sun />
+                        <ToggleSwitch />
+                        <Moon />
+                    </div>
+                </Flex>
                 <div>
                     <button onClick={props.themeChange}>Change Theme</button>
                 </div>

@@ -10,9 +10,7 @@ export const GlobalStyles = createGlobalStyle`
  *::after {
    box-sizing: inherit;
 }
-
 `
-
 export const Center = styled.div`
     display: flex;
     justify-content: space-between;
@@ -22,4 +20,8 @@ export const Center = styled.div`
 export const Background = styled.div`
     background-color: ${({ theme }) => theme.light1};
     height: 100vh;
+`
+export const Flex = styled.div`
+  display: flex;
+  justify-content: space-between;
 `
