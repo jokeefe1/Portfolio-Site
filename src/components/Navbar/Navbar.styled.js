@@ -17,3 +17,4 @@ export const Link = styled(NavLink)`
         color: ${({ theme }) => theme.accent1};
     }
 `
+

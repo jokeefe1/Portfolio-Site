@@ -1,5 +1,6 @@
 import React from 'react'
+import { Background } from '../../styles/global'
 
 export default function Home() {
-    return <div>Home</div>
+    return <Background>Home</Background>
 }

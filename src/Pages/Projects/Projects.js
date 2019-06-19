@@ -1,9 +1,10 @@
 import React from 'react'
+import { Background } from '../../styles/global'
 
 export default function Projects() {
     return (
-        <div>
+        <Background>
             Projects
-        </div>
+        </Background>
     )
 }

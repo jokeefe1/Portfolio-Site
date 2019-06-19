@@ -1,12 +1,8 @@
 import React from 'react'
-
+import { Background } from '../../styles/global'
 
 //Twilio text to contact feature
 
 export default function Contact() {
-    return (
-        <div>
-            Contact
-        </div>
-    )
+    return <Background>Contact</Background>
 }

@@ -1,7 +1,7 @@
-import React from 'react'
-import { Center } from '../../styles/global'
-import Logo from '../Logo/Logo'
-import { Link, Nav } from './Navbar.styled'
+import React from 'react';
+import { Center } from '../../styles/global';
+import Logo from '../Logo/Logo';
+import { Link, Nav } from './Navbar.styled';
 
 export default function Navbar(props) {
     return (
