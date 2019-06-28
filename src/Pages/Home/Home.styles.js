@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
-export const Background = styled.div`
-    background-color: ${ ({ theme}) => theme.light1}
+const Layout = styled.div`
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    
 `

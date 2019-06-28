@@ -6,14 +6,13 @@ import Contact from './pages/Contact/Contact'
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
 import Router from './router/Router'
-import { theme_light, theme_dark } from './styles/theme'
 import { GlobalStyles } from './styles/global'
+import { theme_dark, theme_light } from './styles/theme'
 
 function App() {
+    const [isLight, setIsLight] = useState(true)
 
-    const [ isLight, setIsLight ] = useState(true)
-    
-    const themeChange = () => setIsLight( prevState => !prevState )
+    const themeChange = () => setIsLight(prevState => !prevState)
 
     return (
         <>
