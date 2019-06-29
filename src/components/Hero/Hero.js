@@ -6,8 +6,10 @@ export default function Hero() {
         <HeroDiv>
             <ColorDiv />
             <HeroText>
-                <div>HE</div>
-                <div>LLO<span>.</span></div>
+                <div>HI</div>
+                <div>
+                    B<span id="star">*</span>SH<span id="dot">.</span>
+                </div>
             </HeroText>
         </HeroDiv>
     )

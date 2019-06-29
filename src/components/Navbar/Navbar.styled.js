@@ -11,7 +11,6 @@ export const Nav = styled.div`
 `
 
 export const Link = styled(NavLink)`
-    padding: 0 1rem;
     text-decoration: none;
     color: ${({ theme }) => theme.dark1};
 `

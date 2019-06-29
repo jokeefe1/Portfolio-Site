@@ -15,6 +15,7 @@ export default function Router(props) {
             </Container>
             <Switch>
                 <Route component={Home} path="/" exact />
+                <Route component={Home} path='/es' />
                 <Route component={Projects} path="/projects" />
                 <Route component={About} path="/about" />
                 <Route component={Contact} path="/contact" />

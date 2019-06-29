@@ -8,7 +8,11 @@ export const theme_light = {
     light1: '#ffffff',
     light2: '#F8F8F8',
     light3: '#BCBCBC',
-    dark1: '#1c1b20'
+    dark1: '#1c1b20',
+
+    //
+    font1: `'Montserrat', sans-serif`,
+    font2: `'Palanquin Dark', sans-serif`,
 }
 
 export const theme_dark = {
@@ -18,6 +22,7 @@ export const theme_dark = {
     light1: '#6200EE',
     accent2: '#282828'
 }
+
 
 
 //Old Theme
