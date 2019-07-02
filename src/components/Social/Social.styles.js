@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components/macro'
+import styled from 'styled-components/macro'
 import { Github } from 'styled-icons/boxicons-logos/Github'
 import { Linkedin } from 'styled-icons/boxicons-logos/Linkedin'
 
