@@ -11,7 +11,7 @@ const fadeIn = keyframes`
 `
 
 export const ColorDivPrimary = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: ${({ theme }) => theme.primary1};
     animation: ${morph} 1s linear forwards;
@@ -22,7 +22,7 @@ export const ColorDivPrimary = styled.div`
 `
 
 export const ColorDivLight2 = styled.div`
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: ${({ theme }) => theme.light2};
 `
