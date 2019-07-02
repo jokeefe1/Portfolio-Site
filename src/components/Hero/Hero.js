@@ -1,12 +1,11 @@
 import React from 'react'
 import { Center } from '../../styles/global'
 import {
-    Arrow,
-    ArrowDiv,
     ColorDivLight2,
     ColorDivPrimary,
     HeroText
 } from './Hero.styled'
+import { ArrowDiv, Arrow } from '../Arrow/Arrow.styled'
 
 export default function Hero() {
     return (

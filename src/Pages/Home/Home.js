@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../../components/Hero/Hero'
-import { GitHub, LinkedIn, Social } from '../../components/Hero/Hero.styled'
+import { GitHub, LinkedIn, Social } from '../../components/Social/Social.styles'
 import { MenuDiv, MenuIcon } from '../../components/Menu/Menu.styles'
 import Navbar from '../../components/Navbar/Navbar'
 import { Container } from '../../styles/global'
