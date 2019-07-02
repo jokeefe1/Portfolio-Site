@@ -1,9 +1,16 @@
 import React from 'react'
-import { ColorDivLight2, ColorDivPrimary, HeroText } from './Hero.styled'
+import { Center } from '../../styles/global'
+import {
+    Arrow,
+    ArrowDiv,
+    ColorDivLight2,
+    ColorDivPrimary,
+    HeroText
+} from './Hero.styled'
 
 export default function Hero() {
     return (
-        <>
+        <Center>
             <ColorDivLight2>
                 <ColorDivPrimary>
                     <HeroText>
@@ -13,7 +20,11 @@ export default function Hero() {
                         </div>
                     </HeroText>
                 </ColorDivPrimary>
+                <ArrowDiv>
+                    <p>scroll</p>
+                    <Arrow size="1rem" />
+                </ArrowDiv>
             </ColorDivLight2>
-        </>
+        </Center>
     )
 }

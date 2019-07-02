@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components/macro'
 
 export const GlobalStyles = createGlobalStyle`
  html {
@@ -16,6 +16,7 @@ export const Center = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 `
 export const Background = styled.div`
     background-color: ${({ theme }) => theme.light2};
@@ -23,9 +24,8 @@ export const Background = styled.div`
 `
 export const Flex = styled.div`
   display: flex;
-  align-items: center;
 `
 export const Container = styled.div`
-  width: 94%;
+  width:99%;
   margin: 0 auto;
 `

@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 
-const Layout = styled.div`
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
-    
+export const TopSection = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 `
