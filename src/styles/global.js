@@ -17,7 +17,6 @@ export const Center = styled.div`
     justify-content: space-between;
     align-items: center;
 `
-
 export const Background = styled.div`
     background-color: ${({ theme }) => theme.light2};
     height: 100vh;

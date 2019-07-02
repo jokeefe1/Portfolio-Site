@@ -1,13 +1,11 @@
 import React from 'react'
-import { Background, Container } from '../../styles/global'
-import Hero from '../../components/Hero/Hero';
+import Hero from '../../components/Hero/Hero'
+import { Container } from '../../styles/global'
 
 export default function Home() {
     return (
         <Container>
-            <Background>
-                <Hero />
-            </Background>
+            <Hero />
         </Container>
     )
 }
